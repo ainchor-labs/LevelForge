@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkg-config:*)",
+      "Bash(ldconfig:*)",
+      "Bash(ls:*)",
+      "Bash(bash:*)",
+      "Bash(echo:*)",
+      "Bash(ldd:*)",
+      "Bash(cmake:*)",
+      "Bash(clang++:*)",
+      "Bash(g++:*)",
+      "Bash(./cmake_linux_clang_gcc.sh:*)",
+      "Bash(./UnitTests:*)",
+      "Bash(./build.sh:*)",
+      "Bash(grep:*)",
+      "Bash(BOX2D_LIB_DIR=\"box2d/lib64\":*)",
+      "Bash([ ! -d \"$BOX2D_LIB_DIR\" ])",
+      "Bash(BOX2D_LIB_DIR=\"box2d/lib\")",
+      "Bash(chmod:*)",
+      "Bash(/mnt/Projects/Ainchor/LevelForge/forge:*)",
+      "Bash(tree:*)"
+    ]
+  }
+}
